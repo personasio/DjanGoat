@@ -22,3 +22,4 @@ django-webtest==1.9.2
 coverage==4.5.2
 -e git+https://github.com/rodrigoamaral/django-fullcalendar.git#egg=django-fullcalendar
 
+waitress>=2.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
